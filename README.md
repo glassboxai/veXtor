@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/vextor-logo.png"
+  <img src="assets/vextor-logo.png?v=2"
        alt="veXtor Logo"
        width="180">
 </p>
