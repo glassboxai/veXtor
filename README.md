@@ -47,25 +47,6 @@ flowchart TD
     G -->|Next decoding step| C
 ```
 
-
-```text
-User query / semantic objective
-              |
-              v
-       Semantic guidance
-              |
-              v
-LLM -> next-token logits -> candidate beam states
-                               |
-                               v
-                    scoring and selection
-                               |
-                               v
-                     selected beam states
-                               |
-                               +----> next decoding step
-```
-
 ## Research objectives
 
 - Measure semantic drift across long and multi-topic responses.
