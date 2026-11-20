@@ -36,6 +36,18 @@ The experimental decoding approach distinguishes the language model's token dist
 
 This is **beam-state selection and reinjection**, not logit manipulation, post-generation filtering, or a guarantee that generated content is correct. The exact scoring functions and operational constraints are subject to implementation and experimental validation.
 
+```mermaid
+flowchart TD
+    A[User query / semantic objective] --> B[Semantic guidance]
+    B --> C[LLM]
+    C --> D[Next-token logits]
+    D --> E[Candidate beam states]
+    E --> F[Scoring and selection]
+    F --> G[Selected beam states]
+    G -->|Next decoding step| C
+```
+
+
 ```text
 User query / semantic objective
               |
