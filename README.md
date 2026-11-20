@@ -1,7 +1,5 @@
 <p align="center">
-  <img src="assets/vextor-logo.png"
-       alt="veXtor Logo"
-       width="180">
+
 </p>
 
 <h1 align="center">veXtor</h1>
