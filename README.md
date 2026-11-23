@@ -77,6 +77,7 @@ Semantic alignment is not equivalent to truth, logical validity, or safety. Exte
 - [The Glass Box AI Project](https://glassboxai.dev/)
 - [Glass Box AI on GitHub](https://github.com/glassboxai)
 - [The Glass Box AI on YouTube](https://www.youtube.com/@TheGlassBoxAIProject)
+- LinkedIn: [Professional Profile](https://www.linkedin.com/in/glassbox-ai-research/)
 
 ## License
 
